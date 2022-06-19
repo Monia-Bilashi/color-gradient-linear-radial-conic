@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 65%;
+    height: 300px;
+    border: 1px solid black;
+    margin: 20px auto;
+    background-image: linear-gradient(to right, hotpink, blue);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+div {
+    width: 120px;
+    height: 100px;
+    border: 1px solid black;
+    color: white;
+    text-align: center;
+    margin: 20px;
+}
+
+.box-one {
+    background-image: radial-gradient(red, black, white);
+}
+
+.box-two {
+    background-image: radial-gradient(circle, red, black, white);
+}
+
+.box-three {
+    background-image: radial-gradient( red 10%, black 15%, white 25%, green);
+    color: blue;
+}
+
+.box-four {
+    background-image: radial-gradient( circle, red 10%, black 15%, white 25%, green);
+    color: blue;
+}
+
+.box-five {
+    background-image: repeating-radial-gradient(yellow 10%, rgb(128, 0, 119) 15%, green 20%, red 25%);
+    /* color: blue; */
+}
+
+.box-six {
+    background-image: radial-gradient(closest-side at 60% 50%, red, blue, green);
+}
+
+.box-seven {
+    background-image: radial-gradient(closest-corner at 60% 50%, red, blue, green);
+}
+
+.box-eight {
+    background-image: radial-gradient(farthest-side at 60% 50%, red, blue, green);
+}
+
+.box-nine {
+    background-image: radial-gradient(farthest-corner at 60% 50%, white, green, rgb(255, 0, 187), green);
+}
